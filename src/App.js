@@ -8,10 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Portfolio Currently Under Construction!</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          In the meantime, please feel free to view my work on my GitHub account: <a href="https://github.com/Rosco1010">View GitHub Account</a>.
         </p>
       </div>
     );
