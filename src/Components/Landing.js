@@ -40,15 +40,23 @@ class Landing extends Component {
     );
     
     let slide1 = (
-      <div className='slide slide-one'>
-        <p>Hmm...a few measly coins...</p>
-        <p>Some adventure this is...</p>
-        <i></i>
-        <p>Wait! What's that at the bottom?!?</p>
-        <p>The real treasure! Quick, grab it!</p>
-        <button onClick={this.updateSlide}>
-          <i></i>Next Slide
-        </button>
+      <div className='slide'>
+        <div className='container slide-one'>
+          <div className='first-group'>
+            <div className='text-coin'>
+              <p>Hmm...a few measly coins...</p>
+              <div className='coin-image'></div>
+            </div>
+            <p>Some adventure this is...</p>
+          </div>
+          <div className='second-group'>
+            <p>Wait! What's that at the bottom?!?</p>
+            <div className='text-diamond'>
+              <p>The real treasure! Quick, grab it!</p>
+              <button className='diamond-button' onClick={this.updateSlide} />
+            </div>
+          </div>
+        </div>
       </div>
     );
     
