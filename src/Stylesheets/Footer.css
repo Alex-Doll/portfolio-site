@@ -1,0 +1,13 @@
+.footer-custom {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #150835;
+  font-family: 'Arimo', sans-serif;
+  color: #dddaf4;
+}
+
+.btn-link {
+  color: #dddaf4;
+}
