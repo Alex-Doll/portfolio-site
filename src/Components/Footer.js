@@ -10,7 +10,7 @@ class Footer extends Component {
       <footer className='navbar nav footer-custom'>
         <Link to='/'>
           <button className='btn btn-link' onClick={onViewLandingClick}>
-            View Landing
+            View Intro
           </button>
         </Link>
         <div className='social-media'>
