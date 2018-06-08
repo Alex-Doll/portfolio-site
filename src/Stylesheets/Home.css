@@ -1,0 +1,30 @@
+.home {
+  background-color: #7887E5;
+  color: #fff;
+  height: 90vh;
+  font-family: 'Cantarell', sans-serif;
+  text-align: left;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(221, 218, 244, 0.3);
+  font-size: 1.5em;
+  width: 14em;
+  padding-bottom: 10px;
+}
+
+.home h1 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.home p {
+  font-style: italic;
+  font-size: 1em;
+}
