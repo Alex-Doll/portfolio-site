@@ -2,7 +2,7 @@
   background-color: #7887E5;
   color: #fff;
   font-family: 'Cantarell', sans-serif;
-  text-align: left;
+  /*text-align: left;*/
   padding-top: 80px;
   display: flex;
   flex-direction: column;
@@ -14,14 +14,12 @@
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-size: 1.5em;
-  width: 14em;
-  padding-bottom: 10px;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(221, 218, 244, 0.75), rgba(221, 218, 244, 0.35), rgba(221, 218, 244, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(221, 218, 244, 0), rgba(221, 218, 244, 0.75), rgba(221, 218, 244, 0));
 }
 
 .home-custom h1 {
