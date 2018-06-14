@@ -1,30 +1,35 @@
-.home {
+.home-custom {
   background-color: #7887E5;
   color: #fff;
-  height: 90vh;
   font-family: 'Cantarell', sans-serif;
   text-align: left;
-  padding-top: 60px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
 }
 
-.home h3 {
+.home-custom h3 {
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
-  border-bottom: 2px solid rgba(221, 218, 244, 0.3);
   font-size: 1.5em;
   width: 14em;
   padding-bottom: 10px;
 }
 
-.home h1 {
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(221, 218, 244, 0.75), rgba(221, 218, 244, 0.35), rgba(221, 218, 244, 0));
+}
+
+.home-custom h1 {
   font-weight: bold;
   font-size: 3em;
 }
 
-.home p {
+.home-custom p {
   font-style: italic;
   font-size: 1.2em;
   margin-bottom: 10vh;
