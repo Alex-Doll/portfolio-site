@@ -8,6 +8,7 @@ class Footer extends Component {
     
     return (
       <footer className='navbar nav footer-custom'>
+        <div className='container'>
         <Link to='/'>
           <button className='btn btn-link' onClick={onViewLandingClick}>
             View Intro
@@ -20,6 +21,7 @@ class Footer extends Component {
           <a className='btn btn-link' href='https://www.linkedin.com/in/alexander-doll/' target='_blank' rel="noopener noreferrer">
             <i className="fab fa-linkedin fa-2x"></i>
           </a>
+        </div>
         </div>
       </footer>
     );
