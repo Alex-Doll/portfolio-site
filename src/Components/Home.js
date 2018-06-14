@@ -15,6 +15,22 @@ class Home extends Component {
             there is plenty for you to enjoy!</p>
           </div>
           <p className='joke-line'>The real treasure all along was my portfolio...or was it friendship?</p>
+          <ul>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li><li>list item!</li>
+            
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+            <li>list item!</li>
+          </ul>
         </div>
       </section>
     );

@@ -5,16 +5,16 @@ import '../Stylesheets/Navbar.css';
 class Navbar extends Component {
   render() {
     return (
-      <nav className='navbar navbar-custom'>
+      <nav className='navbar fixed-top navbar-custom'>
         <div className='container'>
-          <Link className='home-link link-custom' to='/'>
+          <Link className='navbar-brand' to='/'>
             Alex Doll
           </Link>
-          <div>
-            <Link className='link-custom' to='/projects'>
+          <div className='nav justify-content-end'>
+            <Link className='nav-item nav-link' to='/projects'>
               Projects
             </Link>
-            <Link className='link-custom' to='/about'>
+            <Link className='nav-item nav-link' to='/about'>
               About
             </Link>
           </div>
