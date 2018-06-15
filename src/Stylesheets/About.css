@@ -1,3 +1,13 @@
-.about {
+.about-custom {
   padding-top: 80px;
+  font-family: 'Cormorant', serif;
+  font-size: 1.3rem;
+}
+
+.about-custom .about-important {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.about-custom p {
+  margin-bottom: 40px;
 }
