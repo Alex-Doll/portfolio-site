@@ -1,9 +1,11 @@
 .footer-custom {
-  background-color: #150835;
+  background-color: #343838;
   font-family: 'Arimo', sans-serif;
-  color: #dddaf4;
+  color: #fff;
+  -webkit-box-shadow: 0px -3px 10px 0px rgba(33,33,33,0.75); 
+  box-shadow: 0px -3px 10px 0px rgba(33,33,33,0.75);
 }
 
 .btn-link {
-  color: #dddaf4;
+  color: #fff;
 }

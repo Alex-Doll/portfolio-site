@@ -8,7 +8,7 @@ class Projects extends Component {
     const projects = projectsData.map((project, index) => {
       let {imgSrc, title, description, linkTo, technologiesUsed} = project;
       return (
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <div key={index} className='col-lg-4 col-md-6 col-sm-12'>
           <Project 
             imgSrc={imgSrc}
             title={title}
@@ -22,8 +22,8 @@ class Projects extends Component {
     
     return (
       <div className='projects'>
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             {projects}
           </div>
         </div>

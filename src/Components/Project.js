@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../Stylesheets/Project.css';
 
 class Project extends Component {
   render() {
@@ -7,11 +8,11 @@ class Project extends Component {
       <div className='project-custom'>
         <div className='container'>
           <div className='card'>
-            <img class="card-img-top" src={imgSrc} alt={title} />
-            <div class="card-body">
-              <h5 class="card-title">{title}</h5>
-              <p class="card-text">{description}</p>
-              <a href={linkTo} class="btn btn-primary" target='_blank' rel="noopener noreferrer">View Project!</a>
+            <img className="card-img-top" src={imgSrc} alt={title} />
+            <div className="card-body">
+              <h5 className="card-title">{title}</h5>
+              <p className="card-text">{description}</p>
+              <a href={linkTo} className="btn btn-primary" target='_blank' rel="noopener noreferrer"><strong>View Project!</strong></a>
             </div>
           </div>
         </div>

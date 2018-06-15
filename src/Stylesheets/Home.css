@@ -1,8 +1,6 @@
 .home-custom {
-  background-color: #7887E5;
-  color: #fff;
+  background-color: #343838;
   font-family: 'Cantarell', sans-serif;
-  /*text-align: left;*/
   padding-top: 80px;
   display: flex;
   flex-direction: column;
