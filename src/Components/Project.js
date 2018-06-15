@@ -11,7 +11,7 @@ class Project extends Component {
             <div class="card-body">
               <h5 class="card-title">{title}</h5>
               <p class="card-text">{description}</p>
-              <a href={linkTo} class="btn btn-primary">View Project!</a>
+              <a href={linkTo} class="btn btn-primary" target='_blank' rel="noopener noreferrer">View Project!</a>
             </div>
           </div>
         </div>
