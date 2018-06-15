@@ -11,7 +11,7 @@ class Navbar extends Component {
             Alex Doll
           </Link>
           <div className='nav justify-content-end'>
-            <Link className='nav-item nav-link' to='/projects'>
+            <Link className='nav-item btn btn-primary' to='/projects'>
               Projects
             </Link>
             <Link className='nav-item nav-link' to='/about'>

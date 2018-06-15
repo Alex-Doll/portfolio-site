@@ -10,3 +10,19 @@
   color: #fff;
   font-family: 'Gothic A1', sans-serif;
 }
+
+.btn-link:hover {
+  color: #00b4cc;
+  animation-name: link-hover;
+  animation-fill-mode: forwards;
+  animation-duration: 0.3s;
+}
+
+@keyframes link-hover {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #00b4cc;
+  }
+}
