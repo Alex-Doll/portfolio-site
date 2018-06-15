@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <section className='jumbotron jumbotron-fluid home-custom'>
-        <div className='container'>
+        <div className='container text-left'>
           <h3>Greetings Adventurer</h3>
           <hr />
           <h1 className='display-2'>My name is Alex Doll</h1>
